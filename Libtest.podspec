@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '9.0'
-s.name = "LibTest""
-s.summary = "LibTest test."
+s.name = "Libtest"
+s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
@@ -39,8 +39,8 @@ s.framework = "UIKit"
 s.dependency 'Material', '~> 2.0'
 
 # 8
-s.source_files = "LibTest/*.{swift}"
+s.source_files = "LibTest/**/*.{swift}"
 
 # 9
-s.resources = "LibTest/*.{storyboard}"
+s.resources = "LibTest/**/*.{storyboard}"
 end
