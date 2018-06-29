@@ -40,8 +40,8 @@ s.framework = "UIKit"
 s.dependency 'Material', '~> 2.0'
 
 # 8
-s.source_files = "LibTest/**/*.{swift}"
+s.source_files = "LibTest/*.{swift}"
 
 # 9
-s.resources = "LibTest/**/*.{storyboard}"
+s.resources = "LibTest/*.{storyboard}"
 end
