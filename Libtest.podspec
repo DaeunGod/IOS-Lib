@@ -6,6 +6,7 @@ s.ios.deployment_target = '9.0'
 s.name = "Libtest"
 s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
+s.swift-version = '3.2'
 
 # 2
 s.version = "0.1.0"
